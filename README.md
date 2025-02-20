@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where a catch-all route (`/*`) interferes with other defined routes.  The problem arises when the catch-all route is placed before other routes; it will always match, preventing other routes from being accessed.  The solution involves rearranging the route order to place the catch-all route last.
